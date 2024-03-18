@@ -1,4 +1,4 @@
-public class Main {
+public class PiTri {
 
     public static void main(String[] args) {
         if(args == null || args.length == 0){
@@ -31,7 +31,7 @@ public class Main {
             if(checkTriple(a, b, c)){
                 System.out.println(a + ", "+ b + ", "+ c + " — это настоящая пифагорова тройка!");
             } else {
-                System.out.println("Эти числа не являются пифагоровой тройкой");
+                System.out.println("Эти числа не являются пифагоровой тройкой. Понятно!!!!");
             }
         }
     }
